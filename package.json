@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "name": "metalsmith-nestedlayouts",
   "repository": "git://github.com/yucho/metalsmith-nestedlayouts.git",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "scripts": {
     "precommit": "lint-staged",
     "lint:js": "eslint '**/*.js'",
