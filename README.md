@@ -13,13 +13,11 @@ There are 2 distinct advantages to this behavior:
 1. You can add frontmatter to layouts
 2. Which means you can nest layouts inside another by adding a layout property in a layout
 
-### It analyzes layouts dependency, renders layouts first, then renders contents files
-
-So after the first render, all layouts are ready to be applied to contents files.
+### It analyzes layouts dependency and renders layouts in correct order
 
 ### It checks whether or not layouts directory is inside the Metalsmith source
 
-So it won’t reread the layouts that had already been read by the Metalsmith instance.
+Therefore it won’t reread the layouts that had already been read by the Metalsmith instance.
 
 ## Usage
 
